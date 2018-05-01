@@ -1,4 +1,4 @@
-package basic.main
+package basic
 
 import java.util.*
 

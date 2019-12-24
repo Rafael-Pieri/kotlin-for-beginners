@@ -1,4 +1,6 @@
-# kotlin for beginners
+[![Build Status](https://travis-ci.com/rafael-pieri/kotlin-for-beginners.svg?branch=master)](https://travis-ci.com/rafael-pieri/kotlin-for-beginners)
+
+## Kotlin for beginners
 
 First steps to learning the Kotlin language.
 Concepts covered in this application:

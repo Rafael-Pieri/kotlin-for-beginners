@@ -1,9 +1,5 @@
 package api.infra
 
-/**
- * Classe não pode ser instanciada
- * Define variáveis estáticas que não podem ser alteradas, somente acessadas
- * */
 class EndpointConstants private constructor() {
 
     object BASE {

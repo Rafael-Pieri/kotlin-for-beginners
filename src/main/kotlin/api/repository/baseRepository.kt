@@ -11,10 +11,6 @@ import java.net.URLEncoder
 
 abstract class BaseRepository {
 
-    /**
-     * Faz a execução a chamada para a API
-     * Todos os parâmetros são configurados dentro da classe FullParameters
-     */
     fun execute(fullParameters: FullParameters): HttpResponse {
 
         val connection: HttpURLConnection
@@ -43,9 +39,6 @@ abstract class BaseRepository {
         return response
     }
 
-    /**
-     * Faz a conversão do retorno do webservice para string
-     */
     private fun getStringFromInputStream(inputStream: InputStream): String {
         return try {
             val strBuilder = StringBuilder()
@@ -62,10 +55,6 @@ abstract class BaseRepository {
         }
     }
 
-    /**
-     * Monta query
-     * www.api.com/post?id=10&size=10&page=3
-     */
     private fun getQuery(parameters: Map<String, String>): String {
         if (parameters.isEmpty())
             return ""

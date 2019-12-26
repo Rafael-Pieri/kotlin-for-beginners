@@ -12,7 +12,7 @@ fun whatHappenedIfElse(year: Int) =
 
 fun whatHappenedWhenCommand(year: Int) = when (year) {
     2018 -> "Year I learned Kotlin"
-    2019, 2020, 2021 -> "I do not know th future!"
+    2019, 2020, 2021 -> "I do not know the future"
     else -> "I do not know what it happened"
 }
 

@@ -18,13 +18,13 @@ class IfElseTest {
     @Test
     fun shouldReturnWhatHappenedIfElse() {
         val event = whatHappenedIfElse(this.year)
-        assertEquals("Year I learned Kotlin", event)
+        assertEquals("I do not know the future", event)
     }
 
     @Test
     fun shouldReturnWhatHappenedWhenCommand() {
         val event = whatHappenedWhenCommand(this.year)
-        assertEquals("Year I learned Kotlin", event)
+        assertEquals("I do not know the future", event)
     }
 
     @Test

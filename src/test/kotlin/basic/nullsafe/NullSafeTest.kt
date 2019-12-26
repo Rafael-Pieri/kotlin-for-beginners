@@ -1,6 +1,6 @@
 package basic.nullsafe
 
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class NullSafeTest {
@@ -8,20 +8,6 @@ class NullSafeTest {
     @Test
     fun shouldCallNullSafeString() {
         assertEquals(true, nullSafeString())
-    }
-
-    @Test
-    fun shouldNotReturnANullExampleJavaInstance() {
-        val lengthNameByGetInstance = getNullExampleJavaInstance()
-        assertNull(lengthNameByGetInstance)
-    }
-
-    @Test
-    fun shouldReturnANullExampleJavaInstanceButNoValuesInItsAttributes() {
-        val lengthNameByConstructor = getNullExampleJavaByConstructor()
-        assertNotNull(lengthNameByConstructor)
-        assertEquals(0, lengthNameByConstructor.age)
-        assertNull(lengthNameByConstructor.name)
     }
 
     @Test

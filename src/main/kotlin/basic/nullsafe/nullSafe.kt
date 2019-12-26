@@ -5,14 +5,6 @@ fun nullSafeString(): Boolean {
     return str == null
 }
 
-fun getNullExampleJavaInstance(): NullExampleJava? {
-    return NullExampleJava.getInstance()
-}
-
-fun getNullExampleJavaByConstructor(): NullExampleJava {
-    return NullExampleJava()
-}
-
 fun getStringLengthWithSafeCallOperator(str: String?): Int? {
     return str?.length
 }
